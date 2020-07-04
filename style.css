@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+.calculatrice {
+    width: 100%;
+}
+
+.ecran {
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: right;
+    font-size: 75px;
+}
+
+#temp {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    display: none;
+}
+
+#afficher {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+.ppage {
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; */
+}
+
+.btn {
+    width: 22%;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: gray;
+    color: white;
+}
+
+.signe {
+    background-color: orange;
+}
+
+.zero {
+    width: 46%;
+    text-align: left;
+}
+
+.dpage {
+    display: none;
+}
+
+@media (min-width: 667px) {
+    .ecran {
+        font-size: 50px;
+    }
+    .ppage {
+        width: 25%;
+        float: right;
+    }
+    .btn {
+        width: 10%;
+        height: 20px;
+        border-radius: 50px;
+        font-size: 10px;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        border: 0;
+        background-color: gray;
+        color: white;
+    }
+    .btn-ppage {
+        width: 17%;
+    }
+    .signe {
+        background-color: orange;
+    }
+    .zero {
+        width: 37%;
+        text-align: left;
+    }
+    .dpage {
+        width: 75%;
+        display: inline-block;
+    }
+}

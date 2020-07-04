@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notre Calculatrice</title>
+</head>
+
+<body>
+    <div class="calculatrice" id="calc">
+        <div class="ecran" id="resultat"></div>
+        <div id="afficher"></div>
+        <div id="temp"></div>
+        <div class="ppage">
+            <button id="ac" class="btn btn-ppage" onclick="initialiseur()">AC</button>
+            <button class="btn btn-ppage" onclick="sign()">&plusmn;</button>
+            <button class="btn btn-ppage" onclick="percent()">%</button>
+            <button id="/" class="btn signe btn-ppage" onclick="division()">/</button>
+            <button id="7" class="btn btn-ppage" onclick="afficheur(7)">7</button>
+            <button id="8" class="btn btn-ppage" onclick="afficheur(8)">8</1button>
+            <button id="9" class="btn btn-ppage" onclick="afficheur(9)">9</button>
+            <button id="*" class="btn signe btn-ppage" onclick="multiplication()">*</button>
+            <button id="4" class="btn btn-ppage" onclick="afficheur(4)">4</button>
+            <button id="5" class="btn btn-ppage" onclick="afficheur(5)">5</button>
+            <button id="6" class="btn btn-ppage" onclick="afficheur(6)">6</button>
+            <button id="-" class="btn signe btn-ppage" onclick="soustraction()">-</button>
+            <button id="1" class="btn btn-ppage" onclick="afficheur(1)">1</button>
+            <button id="2" class="btn btn-ppage" onclick="afficheur(2)">2</button>
+            <button id="3" class="btn btn-ppage" onclick="afficheur(3)">3</button>
+            <button id="+" class="btn signe btn-ppage" onclick="addition()">+</button>
+            <button id="0" class="btn btn-ppage zero" onclick="afficheur(0)">0</button>
+            <button id="." class="btn btn-ppage" onclick="afficheur('.')">,</button>
+            <button class="btn signe btn-ppage" onclick="calcul('=')">=</button>
+        </div>
+        <div class="dpage">
+            <button class="btn" onclick="afficheur('(')">(</button>
+            <button class="btn" onclick="afficheur(')')">)</button>
+            <button class="btn">mc</button>
+            <button class="btn">m+</button>
+            <button class="btn">m-</button>
+            <button class="btn">mr</button>
+            <button class="btn">shift</button>
+            <button class="btn">x²</button>
+            <button class="btn">x³</button>
+            <button class="btn">x</button>
+            <button class="btn">e</button>
+            <button class="btn">10</button>
+            <button class="btn">1/x</button>
+            <button class="btn">^</button>
+            <button class="btn">sin</button>
+            <button class="btn">cos</button>
+            <button class="btn">tan</button>
+            <button class="btn">arcos</button>
+            <button class="btn">arcsin</button>
+            <button class="btn">arctan</button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+    </div>
+    <script src=script.js></script>
+</body>
+
+</html>
