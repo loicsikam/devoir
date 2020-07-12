@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice 2.0</title>
+    <link rel="stylesheet" href="style 2.css">
+</head>
+
+<body>
+    <div class="no-displaying">
+        <h1>La taille de l'ecran est trop grande
+        </h1>
+    </div>
+    <div class="container">
+        <div class="afficheur">
+            <p class="sign"></p>
+            <p class="value">
+                <p class="resultat"></p>
+            </p>
+        </div>
+        <div class="buttons-side">
+            <div class="left_side">
+                <ul class="functions">
+                    <li onclick="reset()">AC</li>
+                    <li onclick="signing()">±</li>
+                    <li onclick="percent()">%</li>
+                </ul>
+                <ul class="number">
+                    <li onclick="number(9)">9</li>
+                    <li onclick="number(8)">8</li>
+                    <li onclick="number(7)">7</li>
+                    <li onclick="number(4)">4</li>
+                    <li onclick="number(5)">5</li>
+                    <li onclick="number(6)">6</li>
+                    <li onclick="number(1)">1</li>
+                    <li onclick="number(2)">2</li>
+                    <li onclick="number(3)">3</li>
+                    <li class="zero" onclick="number(0)">0</li>
+                    <li onclick="">,</li>
+
+                </ul>
+            </div>
+            <div class="right_side">
+                <ul class="operators">
+                    <li onclick="division();">÷</li>
+                    <li onclick="multiplication();">×</li>
+                    <li onclick="soustraction();">-</li>
+                    <li onclick="addition()">+</li>
+                    <li onclick="calcul();">=</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script 2.js"></script>
+</body>
+
+</html>
